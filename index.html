@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Roma</h3>
+                    <p>Italia</p>
+                    <p>O incursiune în istoria antică.</p>
+                    <p>Durată recomandată: 5 zile</p>
+                </article>
+                <article class="card featured">
+                    <h3>Paris</h3>
+                    <p>Franța</p>
+                    <p>Orașul luminilor și al artei.</p>
+                    <p>Durată recomandată: 4 zile</p>
+                </article>
+                <article class="card">
+                    <h3>Lisabona</h3>
+                    <p>Portugalia</p>
+                    <p>Orașul celor șapte coline.</p>
+                    <p>Durată recomandată: 3 zile</p>
+                </article>
+                <article class="card">
+                    <h3>Barcelona</h3>
+                    <p>Spania</p>
+                    <p>Arhitectura uimitoare a lui Gaudi.</p>
+                    <p>Durată recomandată: 4 zile</p>
+                </article>
+                <article class="card">
+                    <h3>Atena</h3>
+                    <p>Grecia</p>
+                    <p>Leagănul civilizației occidentale.</p>
+                    <p>Durată recomandată: 3 zile</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică excursia</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nume</label>
+                    <input id="name" name="name" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destinație</label>
+                    <select id="destination" name="destination">
+                        <option value="">Alege...</option>
+                        <option value="Roma">Roma</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Lisabona">Lisabona</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Atena">Atena</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="days">Număr de zile</label>
+                    <input id="days" name="days" type="number">
+                </div>
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+            <ul>
+                <li>Pregătiți încălțăminte comodă pentru mersul pe jos.</li>
+                <li>Verificați prognoza meteo înainte de a împacheta.</li>
+                <li>Rezervați online biletele pentru obiectivele turistice.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Cazac George-Vlad, 2026</p>
+    </footer>
+</body>
+</html>
