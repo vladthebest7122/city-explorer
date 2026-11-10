@@ -70,3 +70,98 @@ button {
 .card.vizitat button {
   background: #28a745;
 }
+
+/* Structura nouă pentru formular */
+.formular {
+  align-items: flex-start;
+}
+.camp {
+  flex: 1;
+  min-width: 0;
+}
+.camp input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Stiluri pentru căutare */
+.cautare {
+  margin-bottom: 1.2rem;
+}
+.cautare input {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #c3c7cf;
+  border-radius: 7px;
+  font: inherit;
+}
+
+/* Stiluri pentru stările cererii (Cerința 3d) */
+.stare {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #e0f2fe;
+  color: #0369a1;
+}
+.stare.eroare {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Stiluri pentru validarea formularului (Cerința 3d) */
+.formular input.invalid {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+.eroare-camp {
+  margin: 0.3rem 0 0 0;
+  font-size: 0.85rem;
+  color: #ef4444;
+}
+
+/* Stare de Loading pentru buton */
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Caseta pentru Lista Goală (Cerința 3d) */
+.gol {
+  padding: 2rem;
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* VARIANTA CU GRESELI */
+.panou {
+ margin-bottom: 1.4rem;
+ padding: 0.9rem 1rem;
+ border: 1px solid #d8dbe0;
+ border-radius: 10;
+}
+.panou h2 {
+ margin-bottom: 0.6rem;
+ font-size: 1.1rem;
+}
+.panou label {
+ font-size: 0.9rem;
+ color: #4b5563;
+}
+.panou input {
+ width: 70px;
+ padding: 0.3rem 0.5rem;
+ border: 1px solid #c3c7cf;
+ border-radius: 6px;
+ font: inherit;
+}
+.panou ul {
+ margin: 0.7rem 0 0 0;
+ padding-left: 1.1rem;
+ color: #4b5563;
+ font-size: 0.95rem;
+}
+.panou h2 {
+ margin: 0;
+}
